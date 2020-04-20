@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="41009e54-69fc-48ea-9643-17f07d575c82" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
+  </component>
+  <component name="ProjectId" id="1ZNox9wdN948UjHxy4wiDDz1S3K" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="gan_tensorflow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GAN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gan_tensorflow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.gan_tensorflow" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41009e54-69fc-48ea-9643-17f07d575c82" name="Default Changelist" comment="" />
+      <created>1584689156406</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584689156406</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="203" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586117022809">
+      <screen x="35" y="23" width="1405" height="877" />
+    </state>
+    <state x="203" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/35.23.1405.877@35.23.1405.877" timestamp="1586117022809" />
+    <state width="855" height="271" key="GridCell.Tab.0.bottom" timestamp="1585928305621">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="855" height="271" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585928305621" />
+    <state width="1361" height="105" key="GridCell.Tab.0.bottom/35.23.1405.877@35.23.1405.877" timestamp="1584704486461" />
+    <state width="1379" height="283" key="GridCell.Tab.0.bottom/37.23.1403.877@37.23.1403.877" timestamp="1584873910690" />
+    <state width="1398" height="162" key="GridCell.Tab.0.bottom/38.23.1402.877@38.23.1402.877" timestamp="1584709507512" />
+    <state width="855" height="271" key="GridCell.Tab.0.center" timestamp="1585928305619">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="855" height="271" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585928305619" />
+    <state width="1361" height="105" key="GridCell.Tab.0.center/35.23.1405.877@35.23.1405.877" timestamp="1584704486460" />
+    <state width="1379" height="283" key="GridCell.Tab.0.center/37.23.1403.877@37.23.1403.877" timestamp="1584873910689" />
+    <state width="1398" height="162" key="GridCell.Tab.0.center/38.23.1402.877@38.23.1402.877" timestamp="1584709507512" />
+    <state width="855" height="271" key="GridCell.Tab.0.left" timestamp="1585928305618">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="855" height="271" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585928305618" />
+    <state width="1361" height="105" key="GridCell.Tab.0.left/35.23.1405.877@35.23.1405.877" timestamp="1584704486459" />
+    <state width="1379" height="283" key="GridCell.Tab.0.left/37.23.1403.877@37.23.1403.877" timestamp="1584873910689" />
+    <state width="1398" height="162" key="GridCell.Tab.0.left/38.23.1402.877@38.23.1402.877" timestamp="1584709507511" />
+    <state width="855" height="271" key="GridCell.Tab.0.right" timestamp="1585928305620">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="855" height="271" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585928305620" />
+    <state width="1361" height="105" key="GridCell.Tab.0.right/35.23.1405.877@35.23.1405.877" timestamp="1584704486460" />
+    <state width="1379" height="283" key="GridCell.Tab.0.right/37.23.1403.877@37.23.1403.877" timestamp="1584873910690" />
+    <state width="1398" height="162" key="GridCell.Tab.0.right/38.23.1402.877@38.23.1402.877" timestamp="1584709507512" />
+    <state x="425" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1586113488112">
+      <screen x="39" y="23" width="1401" height="877" />
+    </state>
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1584776379304" />
+    <state x="421" y="298" key="com.intellij.ide.util.TipDialog/34.23.1406.877@34.23.1406.877" timestamp="1585927258007" />
+    <state x="425" y="298" key="com.intellij.ide.util.TipDialog/39.23.1401.877@39.23.1401.877" timestamp="1586113488112" />
+  </component>
+</project>

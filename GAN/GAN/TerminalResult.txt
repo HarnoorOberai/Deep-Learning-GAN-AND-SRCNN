@@ -1,0 +1,134 @@
+/Users/harnooroberai/opt/anaconda3/envs/DeepLearning/bin/python /Users/harnooroberai/Data_Science/CW2_19075898/GAN/gan_tensorflow.py
+WARNING:tensorflow:From /Users/harnooroberai/Data_Science/CW2_19075898/GAN/gan_tensorflow.py:132: read_data_sets (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+WARNING:tensorflow:From /Users/harnooroberai/opt/anaconda3/envs/DeepLearning/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:260: maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please write your own downloading logic.
+WARNING:tensorflow:From /Users/harnooroberai/opt/anaconda3/envs/DeepLearning/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:262: extract_images (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+WARNING:tensorflow:From /Users/harnooroberai/opt/anaconda3/envs/DeepLearning/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:267: extract_labels (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+WARNING:tensorflow:From /Users/harnooroberai/opt/anaconda3/envs/DeepLearning/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:110: dense_to_one_hot (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.one_hot on tensors.
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+WARNING:tensorflow:From /Users/harnooroberai/opt/anaconda3/envs/DeepLearning/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:290: DataSet.__init__ (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+2020-04-05 20:08:02.179275: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+[1/100] - ptime: 24.35 loss_d: 1.109, loss_g: 0.908
+[2/100] - ptime: 24.26 loss_d: 1.209, loss_g: 0.981
+[3/100] - ptime: 23.97 loss_d: 1.160, loss_g: 1.026
+[4/100] - ptime: 24.23 loss_d: 0.968, loss_g: 1.195
+[5/100] - ptime: 26.71 loss_d: 0.824, loss_g: 1.542
+[6/100] - ptime: 26.19 loss_d: 0.924, loss_g: 1.262
+[7/100] - ptime: 25.22 loss_d: 0.916, loss_g: 1.280
+[8/100] - ptime: 23.63 loss_d: 1.051, loss_g: 1.098
+[9/100] - ptime: 25.44 loss_d: 0.973, loss_g: 1.309
+[10/100] - ptime: 26.63 loss_d: 0.944, loss_g: 1.281
+Avg per epoch ptime: 25.06, total 10 epochs ptime: 258.49
+Training finish!... save training results
+[11/100] - ptime: 26.22 loss_d: 1.009, loss_g: 1.210
+[12/100] - ptime: 24.36 loss_d: 0.958, loss_g: 1.372
+[13/100] - ptime: 24.07 loss_d: 1.013, loss_g: 1.225
+[14/100] - ptime: 24.27 loss_d: 0.942, loss_g: 1.358
+[15/100] - ptime: 23.89 loss_d: 0.999, loss_g: 1.283
+[16/100] - ptime: 25.28 loss_d: 1.007, loss_g: 1.255
+[17/100] - ptime: 24.34 loss_d: 1.041, loss_g: 1.210
+[18/100] - ptime: 24.58 loss_d: 1.063, loss_g: 1.156
+[19/100] - ptime: 24.01 loss_d: 1.093, loss_g: 1.112
+[20/100] - ptime: 23.92 loss_d: 1.088, loss_g: 1.100
+Avg per epoch ptime: 24.78, total 20 epochs ptime: 510.85
+Training finish!... save training results
+[21/100] - ptime: 24.00 loss_d: 1.090, loss_g: 1.122
+[22/100] - ptime: 24.97 loss_d: 1.098, loss_g: 1.087
+[23/100] - ptime: 24.12 loss_d: 1.117, loss_g: 1.063
+[24/100] - ptime: 24.30 loss_d: 1.154, loss_g: 1.006
+[25/100] - ptime: 24.73 loss_d: 1.127, loss_g: 1.047
+[26/100] - ptime: 24.15 loss_d: 1.132, loss_g: 1.046
+[27/100] - ptime: 24.72 loss_d: 1.124, loss_g: 1.057
+[28/100] - ptime: 24.02 loss_d: 1.134, loss_g: 1.038
+[29/100] - ptime: 24.03 loss_d: 1.154, loss_g: 1.010
+[30/100] - ptime: 23.98 loss_d: 1.134, loss_g: 1.030
+[31/100] - ptime: 23.90 loss_d: 1.162, loss_g: 0.974
+[32/100] - ptime: 24.98 loss_d: 1.186, loss_g: 0.954
+[33/100] - ptime: 23.75 loss_d: 1.169, loss_g: 0.979
+[34/100] - ptime: 24.21 loss_d: 1.165, loss_g: 0.980
+[35/100] - ptime: 23.74 loss_d: 1.187, loss_g: 0.935
+[36/100] - ptime: 23.81 loss_d: 1.190, loss_g: 0.938
+[37/100] - ptime: 24.78 loss_d: 1.170, loss_g: 0.969
+[38/100] - ptime: 24.05 loss_d: 1.188, loss_g: 0.953
+[39/100] - ptime: 24.07 loss_d: 1.191, loss_g: 0.940
+[40/100] - ptime: 25.27 loss_d: 1.201, loss_g: 0.919
+[41/100] - ptime: 24.18 loss_d: 1.209, loss_g: 0.906
+[42/100] - ptime: 25.10 loss_d: 1.217, loss_g: 0.897
+[43/100] - ptime: 24.96 loss_d: 1.204, loss_g: 0.912
+[44/100] - ptime: 24.29 loss_d: 1.234, loss_g: 0.861
+[45/100] - ptime: 24.10 loss_d: 1.217, loss_g: 0.892
+[46/100] - ptime: 24.16 loss_d: 1.236, loss_g: 0.862
+[47/100] - ptime: 24.11 loss_d: 1.238, loss_g: 0.855
+[48/100] - ptime: 24.01 loss_d: 1.236, loss_g: 0.859
+[49/100] - ptime: 24.06 loss_d: 1.246, loss_g: 0.854
+[50/100] - ptime: 23.70 loss_d: 1.228, loss_g: 0.880
+Avg per epoch ptime: 24.48, total 50 epochs ptime: 1261.60
+Training finish!... save training results
+[51/100] - ptime: 23.89 loss_d: 1.235, loss_g: 0.861
+[52/100] - ptime: 23.84 loss_d: 1.244, loss_g: 0.852
+[53/100] - ptime: 25.29 loss_d: 1.246, loss_g: 0.850
+[54/100] - ptime: 24.08 loss_d: 1.243, loss_g: 0.851
+[55/100] - ptime: 25.70 loss_d: 1.247, loss_g: 0.837
+[56/100] - ptime: 26.93 loss_d: 1.255, loss_g: 0.839
+[57/100] - ptime: 26.12 loss_d: 1.250, loss_g: 0.836
+[58/100] - ptime: 25.20 loss_d: 1.251, loss_g: 0.844
+[59/100] - ptime: 24.14 loss_d: 1.258, loss_g: 0.832
+[60/100] - ptime: 24.96 loss_d: 1.267, loss_g: 0.811
+[61/100] - ptime: 24.41 loss_d: 1.258, loss_g: 0.835
+[62/100] - ptime: 25.38 loss_d: 1.258, loss_g: 0.830
+[63/100] - ptime: 24.16 loss_d: 1.252, loss_g: 0.845
+[64/100] - ptime: 25.22 loss_d: 1.262, loss_g: 0.823
+[65/100] - ptime: 23.92 loss_d: 1.276, loss_g: 0.815
+[66/100] - ptime: 23.93 loss_d: 1.263, loss_g: 0.822
+[67/100] - ptime: 24.44 loss_d: 1.264, loss_g: 0.824
+[68/100] - ptime: 23.98 loss_d: 1.275, loss_g: 0.817
+[69/100] - ptime: 24.42 loss_d: 1.269, loss_g: 0.810
+[70/100] - ptime: 23.72 loss_d: 1.269, loss_g: 0.808
+[71/100] - ptime: 29.03 loss_d: 1.269, loss_g: 0.809
+[72/100] - ptime: 26.80 loss_d: 1.273, loss_g: 0.811
+[73/100] - ptime: 24.77 loss_d: 1.273, loss_g: 0.806
+[74/100] - ptime: 24.19 loss_d: 1.290, loss_g: 0.770
+[75/100] - ptime: 23.95 loss_d: 1.287, loss_g: 0.789
+[76/100] - ptime: 24.04 loss_d: 1.284, loss_g: 0.793
+[77/100] - ptime: 24.47 loss_d: 1.267, loss_g: 0.826
+[78/100] - ptime: 24.31 loss_d: 1.275, loss_g: 0.802
+[79/100] - ptime: 24.39 loss_d: 1.281, loss_g: 0.788
+[80/100] - ptime: 24.29 loss_d: 1.289, loss_g: 0.792
+[81/100] - ptime: 24.40 loss_d: 1.284, loss_g: 0.790
+[82/100] - ptime: 24.49 loss_d: 1.285, loss_g: 0.790
+[83/100] - ptime: 24.71 loss_d: 1.280, loss_g: 0.798
+[84/100] - ptime: 24.47 loss_d: 1.282, loss_g: 0.789
+[85/100] - ptime: 24.47 loss_d: 1.289, loss_g: 0.792
+[86/100] - ptime: 26.54 loss_d: 1.281, loss_g: 0.793
+[87/100] - ptime: 24.15 loss_d: 1.282, loss_g: 0.786
+[88/100] - ptime: 24.16 loss_d: 1.290, loss_g: 0.778
+[89/100] - ptime: 23.90 loss_d: 1.290, loss_g: 0.775
+[90/100] - ptime: 24.05 loss_d: 1.295, loss_g: 0.778
+[91/100] - ptime: 24.05 loss_d: 1.289, loss_g: 0.776
+[92/100] - ptime: 23.96 loss_d: 1.291, loss_g: 0.773
+[93/100] - ptime: 24.19 loss_d: 1.298, loss_g: 0.761
+[94/100] - ptime: 24.12 loss_d: 1.288, loss_g: 0.787
+[95/100] - ptime: 24.13 loss_d: 1.289, loss_g: 0.783
+[96/100] - ptime: 24.31 loss_d: 1.294, loss_g: 0.769
+[97/100] - ptime: 26.38 loss_d: 1.295, loss_g: 0.770
+[98/100] - ptime: 24.89 loss_d: 1.297, loss_g: 0.756
+[99/100] - ptime: 24.93 loss_d: 1.305, loss_g: 0.756
+[100/100] - ptime: 24.14 loss_d: 1.306, loss_g: 0.758
+Avg per epoch ptime: 24.58, total 100 epochs ptime: 2533.21
+Training finish!... save training results
+
+Process finished with exit code 0
